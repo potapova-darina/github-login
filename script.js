@@ -1,2 +1,8 @@
-const signInButton = document.getElementById("signInButton");
-signInButton.addEventListener("click", (e) => alert("Darina Potapova"));
+window.addEventListener("load", (event) => {
+    const signInButton = document.getElementById("signInButton");
+    signInButton.addEventListener("click", () => {
+        alert("Darina Potapova");
+        console.log("button clicked")
+    });
+});
+  
